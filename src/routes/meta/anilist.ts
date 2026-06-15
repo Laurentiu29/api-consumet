@@ -7,8 +7,8 @@ import { StreamingServers } from '@consumet/extensions/dist/models';
 
 import cache from '../../utils/cache';
 import { redis } from '../../main';
-import NineAnime from '@consumet/extensions/dist/providers/anime/9anime';
-import Zoro from '@consumet/extensions/dist/providers/anime/zoro';
+//import NineAnime from '@consumet/extensions/dist/providers/anime/9anime';
+//import Zoro from '@consumet/extensions/dist/providers/anime/zoro';
 
 const routes = async (fastify: FastifyInstance, options: RegisterOptions) => {
   fastify.get('/', (_, rp) => {
