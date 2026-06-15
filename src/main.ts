@@ -4,7 +4,7 @@ import Fastify from 'fastify';
 import FastifyCors from '@fastify/cors';
 import fs from 'fs';
 
-import books from './routes/books';
+//import books from './routes/books';
 import anime from './routes/anime';
 import manga from './routes/manga';
 import comics from './routes/comics';
